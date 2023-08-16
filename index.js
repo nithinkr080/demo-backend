@@ -15,4 +15,4 @@ app.use(users);
 
 const port = process.env.PORT || 8080;
 
-app.listen(8080, () => console.log(`app listening on port ${port}`));
+app.listen(port, () => console.log(`app listening on port ${port}`));
